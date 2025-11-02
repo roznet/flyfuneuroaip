@@ -34,9 +34,25 @@
 		42F7AF022EB8012700D2B686 /* rzflight */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = rzflight; path = ../rzflight; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		42F7AF1B2EB825C700D2B686 /* Exceptions for "FlyFunEuroAIP" folder in "FlyFunEuroAIP" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Preview Content",
+			);
+			target = 420ECDFB2EAE0D0A009FE6CE /* FlyFunEuroAIP */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		420ECDFE2EAE0D0A009FE6CE /* FlyFunEuroAIP */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				42F7AF1B2EB825C700D2B686 /* Exceptions for "FlyFunEuroAIP" folder in "FlyFunEuroAIP" target */,
+			);
+			explicitFolders = (
+				"Preview Content",
+			);
 			path = FlyFunEuroAIP;
 			sourceTree = "<group>";
 		};
@@ -403,6 +419,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = M7QSSF3624;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -447,6 +464,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = M7QSSF3624;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
